@@ -1,0 +1,23 @@
+body {
+  background-color: gainsboro;
+}
+#HiddenText {
+  display: none;
+  float: inline-end;
+}
+
+#DivForHoverItem:hover #HiddenText {
+  display: block;
+}
+
+#title {
+  color: grey;
+}
+
+input {
+  border: none;
+}
+
+#DivForHoverItem {
+  border-bottom: solid lightcyan 0.5px;
+}

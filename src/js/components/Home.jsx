@@ -64,7 +64,11 @@ const Home = () => {
             </div>
           ))}
         </div>
-        <div className="row">items left</div>
+        <div className="row">
+          <ul className="taskList">
+            {toDo.length !== 0 ? "" : "no task - add a task"}
+          </ul>
+        </div>
       </div>
     </div>
   );
